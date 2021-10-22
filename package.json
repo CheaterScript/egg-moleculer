@@ -1,6 +1,6 @@
 {
   "name": "egg-moleculer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "RPC for moleculer",
   "eggPlugin": {
     "name": "moleculer"
@@ -37,22 +37,23 @@
     "autod": "autod"
   },
   "files": [
-    "app.js",
-    "agent.js",
     "config",
-    "app"
+    "agent.js",
+    "lib",
+    "app.js",
+    "test{{name}}.test.js"
   ],
   "ci": {
     "version": "8, 10"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-moleculer.git"
+    "url": "git+https://github.com/CheaterScript/egg-moleculer.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/eggjs/CheaterScript/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-moleculer#readme",
+  "homepage": "https://github.com/CheaterScript/egg-moleculer#readme",
   "author": "AI&I",
   "license": "MIT"
 }
