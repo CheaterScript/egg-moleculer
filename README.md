@@ -45,6 +45,14 @@ exports.moleculer = {
 ```js
 // {app_root}/config/config.default.js
 exports.moleculer = {
+    client: {
+      host: '127.0.0.1',
+      port: 5672,
+      username: 'admin',
+      password: 'admin',
+      namespace: '',
+      nodeID: null,
+    },
 };
 ```
 
